@@ -8,8 +8,10 @@
 .buildlog/
 .history
 .svn/
-**app/google-services.json
-**runner/GoogleService-info.plist
+ios/Runner/GoogleService-info.plist
+lib/generated_plugin_registrant.dart
+#**app/google-services.json
+#**runner/GoogleService-info.plist
 # IntelliJ related
 *.iml
 *.ipr
@@ -30,9 +32,9 @@
 .pub-cache/
 .pub/
 /build/
-android/app/google-services.json
+/android/app/google-services.json
 # Web related
-lib/generated_plugin_registrant.dart
+
 
 # Symbolication related
 app.*.symbols
